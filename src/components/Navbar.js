@@ -4,25 +4,25 @@ import {
 AppBar,Toolbar, ListItem, IconButton,ListItemIcon, ListItemText, Avatar,Divider, List,Typography,Box
 } from '@material-ui/core';
 import {ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
-import avatar from "../avatar.png"
-import MobilRightMenuSlider from "@material-ui/core/Drawer" 
+import anjana from "../images/anjana.jpg"
+import MobilRightMenuSlider from "@material-ui/core/Drawer"
 import { makeStyles } from '@material-ui/core/styles';
 import Footer from "./Footer";
 
 
-/*CSS styles   MobilRightMenuSlider is custom */
+//CSS styles
 
 const useStyles = makeStyles(theme => ({
  menuSliderContainer : {
-   width: 250,
+   width: 320,
    background: "#511",
    height:"100%"
  },
 avatar :{
 display: "block",
-margin: "0.5rem auto",
-width : theme.spacing(13),
-height: theme.spacing(13),
+margin: "3rem auto",
+width : theme.spacing(15),
+height: theme.spacing(15),
 },
 
 listItem: {
@@ -50,7 +50,7 @@ listPath: "/portfolio"
 {
 listIcon: <ContactMail />,
 listText: "Contacts",
-listPath: "/contacts"
+listPath: "/contactme"
 }
 ]
 
@@ -69,12 +69,9 @@ const toggleSlider = ((slider,open) => ()=> {
 
 const classes = useStyles()
 
-
-
-/* slider is parameter */
 const sideList = slider => (
   <Box className={classes.menuSliderContainer} component="div" onClick={toggleSlider(slider,false)}>
-  <Avatar className={classes.avatar} src={avatar} alt="ASR"/>
+  <Avatar  className={classes.avatar} src={anjana} alt="ASR"/>
   <Divider />
   <List>
   {menuIcons.map((lstItem, key)=>(
@@ -95,14 +92,12 @@ return(
     <IconButton onClick={toggleSlider("right",true)}>
     <ArrowBack style={{color:"tomato"}} />
     </IconButton>
-    <Typography variant="h5" style={{color:"tan"}} > Protfolio
-
+    <Typography variant="h6" style={{color:"tan"}} > Code For Good.
     </Typography>
 <MobilRightMenuSlider
-anchor="right"    /* open from the right */
+anchor="right"
  open = {state.right}
-onClose={toggleSlider("right",false)}
- > {sideList("right")}
+onClose={toggleSlider("right",false)} > {sideList("right")}
  <Footer/>
 </MobilRightMenuSlider>
 

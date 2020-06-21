@@ -73,11 +73,11 @@ timeLineYear:{
   textAlign: "center",
   maxWidth: "9.375rem",
   margin: "0 3rem 0 auto",
-  fontSize: "1.8rem",
+  fontSize: "1.4rem",
   background: "tomato",
   color: "white",
   lineHeight: 1,
-  padding: "0.5rem 0 1rem",
+  padding: "0.3rem 0 1rem",
   ":before": {
     display:"none"
   },
@@ -116,7 +116,9 @@ const Resume = ()=> {
 
 return (
   <>
+
 <Navbar />
+
 <Box component="header" className={classes.mainContainer}>
 <Typography variant="h4" align="center" className={classes.heading}>
 Working Experience
@@ -125,74 +127,104 @@ Working Experience
 <Box component="div" className={classes.timeline}>
 <Typography  variant="h2"
 className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
-> 2013</Typography>
+> 2019-2020</Typography>  
 
 <Box component="div" className={classes.timeLineItem}>
 <Typography variant="h5" align="center" className={classes.subHeading}>
-Web Design
+FronEnd Development | WordPress Developer
 </Typography>
 <Typography variant="body1" align="center" style={{color:"tomato"}}>
-Company Name where worked
+Freelance
 </Typography>
 <Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
-Loren ipsusdfghjkqwertyui dfghjm
-</Typography>
-</Box>
-
-
-
-<Typography  variant="h2"
-className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
-> 2014</Typography>
-
-<Box component="div" className={classes.timeLineItem}>
-<Typography variant="h5" align="center" className={classes.subHeading}>
-HTML CSS
-</Typography>
-<Typography variant="body1" align="center" style={{color:"tomato"}}>
-Company Name where worked
-</Typography>
-<Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
-Loren ipsusdfghjkqwertyui dfghjm
+React | JS | API | Node | Express | MUI | WIX | WordPress
 </Typography>
 </Box>
 
 <Typography  variant="h2"
 className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
-> 2015</Typography>
+> 2018-2019</Typography>
 
 <Box component="div" className={classes.timeLineItem}>
 <Typography variant="h5" align="center" className={classes.subHeading}>
-React and MUI
+Founder
 </Typography>
 <Typography variant="body1" align="center" style={{color:"tomato"}}>
-Company Name where worked
+Beyond Border Oy
 </Typography>
 <Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
-Loren ipsusdfghjkqwertyui dfghjm
+www.beyondborder.net
+Ran semi-failed startup.
 </Typography>
-
 </Box>
 
 <Typography  variant="h2"
 className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
-> 2016</Typography>
+> 2016-2018</Typography>
 
 <Box component="div" className={classes.timeLineItem}>
 <Typography variant="h5" align="center" className={classes.subHeading}>
-JS and WP
+Integration in Finland
 </Typography>
 <Typography variant="body1" align="center" style={{color:"tomato"}}>
-Company Name where worked
+LUKSIA | GOInternational Finland | Finbolly Oy
 </Typography>
 <Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
-Loren ipsusdfghjkqwertyui dfghjm
+Finnish Language, Work Practice and SoMe Marketing
 </Typography>
-
 </Box>
 
+<Typography  variant="h2"
+className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
+> 2013-2015</Typography>
+
+<Box component="div" className={classes.timeLineItem}>
+<Typography variant="h5" align="center" className={classes.subHeading}>
+Technical PMO
+</Typography>
+<Typography variant="body1" align="center" style={{color:"tomato"}}>
+IBM INDIA
+</Typography>
+<Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
+Handelled commercial and delivery aspects of project delivery cycle starting from Project initiation to Project closure for clients like BP and BAT
+</Typography>
+</Box>
+
+<Typography  variant="h2"
+className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
+> 2010-2012</Typography>
+
+<Box component="div" className={classes.timeLineItem}>
+<Typography variant="h5" align="center" className={classes.subHeading}>
+Technical Support Associate
+</Typography>
+<Typography variant="body1" align="center" style={{color:"tomato"}}>
+iYogi Technical Services
+</Typography>
+<Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
+Resolving system's technical issues.
+</Typography>
+</Box>
+
+<Typography  variant="h2"
+className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
+> 2010</Typography>
+
+<Box component="div" className={classes.timeLineItem}>
+<Typography variant="h5" align="center" className={classes.subHeading}>
+Computer Engineering
+</Typography>
+<Typography variant="body1" align="center" style={{color:"tomato"}}>
+MIT Pune
+</Typography>
+<Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
+Information Technology
+</Typography>
 
 
+
+
+</Box>
 </Box>
 </Box>
 </>

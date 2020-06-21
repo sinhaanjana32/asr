@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import  {makeStyles, withStyles} from '@material-ui/core/styles'
 import  {TextField, Typography, Button, Grid, Box} from '@material-ui/core'
 import SendIcon from "@material-ui/icons/Send"
-import Navbar from "./Navbar"
+import TextForm from "./TextForm"
+import axios from 'axios';
+
 
 
 
@@ -20,11 +22,8 @@ button : {
   color:"tomato",
   borderColor: "tomato"
 },
-
-
 }))
 
-/* inputfeild is a custom variable */
 const InputField = withStyles({
   root: {
     "& label.Mui-focused": {
@@ -48,24 +47,55 @@ const InputField = withStyles({
 
 const Contacts = () => {
 
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [companyName, setCompanyName] = useState('');
+  
+  
+  
+  
+  
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+  
+    let data = { 
+      name: name, 
+      email: email,
+      comname:companyName,
+    }
+    axios.post('/api/forms', data)
+    .then(res=> {
+     alert('messege sent');
+      
+    })
+    .catch((err)=>{
+    console.log('message not sent');
+    })
+    console.log(data);
+  }
+
 const classes = useStyles()
 
 return (
 
+
 <Box component="div" style={{background:"#233",height:"100vh"}}>
-<Navbar />
+
+<TextForm />
+
 <Grid container justify="center">
 <Box component="form" className={classes.form}>
- <Typography variant="h5"  style={{color:"tomato",textAlign:"center", textTransform:"uppercase"}}>
-   Hire or Contact me...
- </Typography>
+ <Typography variant="h5"  style={{color:"tomato", textAlign:"center", textTransform:"uppercase"}}>
+   Hire or Contact me...</Typography>
  <InputField
 fullWidth={true}
 label="Name"
 variant="outlined"
 margin="dense" size="medium"
-inputProps={{style:{color: "white"}}}   /* imp */
- />
+inputProps={{style:{color: "white"}}}
+value={name}
+onChange={(e)=> {setName(e.target.value)}} />
+
 <br />
  <InputField
 fullWidth={true}
@@ -73,6 +103,8 @@ label="Email"
 variant="outlined"
 inputProps={{style:{color: "white"}}}
 margin="dense" size="medium"
+value={email}
+onChange={(e)=> {setEmail(e.target.value)}}
  />
 <br />
  <InputField
@@ -81,10 +113,13 @@ label="Company Name"
 variant="outlined"
 inputProps={{style:{color: "white"}}}
 margin="dense" size="medium"
+value={companyName}
+onChange={(e)=> {setCompanyName(e.target.value)}}
  />
 <br />
 
-<Button className={classes.button} variant="outlined" fullWidth={true} endIcon={<SendIcon />}>
+
+<Button type="button" className={classes.button} variant="outlined" fullWidth={true} endIcon={<SendIcon />} onClick={handleSubmit}>
 Contact Me
 </Button>
 
