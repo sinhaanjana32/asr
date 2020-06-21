@@ -1,28 +1,30 @@
 {
   "files": {
     "main.css": "/asr/static/css/main.66afbfc3.chunk.css",
-    "main.js": "/asr/static/js/main.2615ce22.chunk.js",
-    "main.js.map": "/asr/static/js/main.2615ce22.chunk.js.map",
+    "main.js": "/asr/static/js/main.6586c15b.chunk.js",
+    "main.js.map": "/asr/static/js/main.6586c15b.chunk.js.map",
     "runtime-main.js": "/asr/static/js/runtime-main.942ff0c4.js",
     "runtime-main.js.map": "/asr/static/js/runtime-main.942ff0c4.js.map",
-    "static/js/2.95e4b7e1.chunk.js": "/asr/static/js/2.95e4b7e1.chunk.js",
-    "static/js/2.95e4b7e1.chunk.js.map": "/asr/static/js/2.95e4b7e1.chunk.js.map",
+    "static/js/2.dac404e4.chunk.js": "/asr/static/js/2.dac404e4.chunk.js",
+    "static/js/2.dac404e4.chunk.js.map": "/asr/static/js/2.dac404e4.chunk.js.map",
     "index.html": "/asr/index.html",
-    "precache-manifest.73aea92d37646f0c805379cc02c60759.js": "/asr/precache-manifest.73aea92d37646f0c805379cc02c60759.js",
+    "precache-manifest.fcd449ca044aa0f27cdc279b26c32ca5.js": "/asr/precache-manifest.fcd449ca044aa0f27cdc279b26c32ca5.js",
     "service-worker.js": "/asr/service-worker.js",
     "static/css/main.66afbfc3.chunk.css.map": "/asr/static/css/main.66afbfc3.chunk.css.map",
-    "static/js/2.95e4b7e1.chunk.js.LICENSE.txt": "/asr/static/js/2.95e4b7e1.chunk.js.LICENSE.txt",
-    "static/media/avatar.png": "/asr/static/media/avatar.7c8e5f50.png",
+    "static/js/2.dac404e4.chunk.js.LICENSE.txt": "/asr/static/js/2.dac404e4.chunk.js.LICENSE.txt",
+    "static/media/anjana.jpg": "/asr/static/media/anjana.f898c82d.jpg",
+    "static/media/ba.PNG": "/asr/static/media/ba.7c2645bc.PNG",
     "static/media/App.css": "/asr/static/media/coffee-apple.2dd213aa.jpg",
-    "static/media/html-css-javascript-lg.jpg": "/asr/static/media/html-css-javascript-lg.54fd4234.jpg",
-    "static/media/javascript-fullstack.jpg": "/asr/static/media/javascript-fullstack.730958a2.jpg",
-    "static/media/mern-stack.jpg": "/asr/static/media/mern-stack.90616a5d.jpg",
-    "static/media/react-redux.jpg": "/asr/static/media/react-redux.a8b012a0.jpg"
+    "static/media/ct.PNG": "/asr/static/media/ct.c39a9d24.PNG",
+    "static/media/mt.PNG": "/asr/static/media/mt.43269382.PNG",
+    "static/media/pixabay.PNG": "/asr/static/media/pixabay.925297ee.PNG",
+    "static/media/recipe.PNG": "/asr/static/media/recipe.7ddcb7bb.PNG",
+    "static/media/youtube.PNG": "/asr/static/media/youtube.39c9d237.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.942ff0c4.js",
-    "static/js/2.95e4b7e1.chunk.js",
+    "static/js/2.dac404e4.chunk.js",
     "static/css/main.66afbfc3.chunk.css",
-    "static/js/main.2615ce22.chunk.js"
+    "static/js/main.6586c15b.chunk.js"
   ]
 }
