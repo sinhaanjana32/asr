@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/asr/static/css/main.66afbfc3.chunk.css",
+    "main.js": "/asr/static/js/main.200069c0.chunk.js",
+    "main.js.map": "/asr/static/js/main.200069c0.chunk.js.map",
+    "runtime-main.js": "/asr/static/js/runtime-main.942ff0c4.js",
+    "runtime-main.js.map": "/asr/static/js/runtime-main.942ff0c4.js.map",
+    "static/js/2.7a562460.chunk.js": "/asr/static/js/2.7a562460.chunk.js",
+    "static/js/2.7a562460.chunk.js.map": "/asr/static/js/2.7a562460.chunk.js.map",
+    "index.html": "/asr/index.html",
+    "precache-manifest.d1b5d06668648e1fe0cd1c038968516e.js": "/asr/precache-manifest.d1b5d06668648e1fe0cd1c038968516e.js",
+    "service-worker.js": "/asr/service-worker.js",
+    "static/css/main.66afbfc3.chunk.css.map": "/asr/static/css/main.66afbfc3.chunk.css.map",
+    "static/js/2.7a562460.chunk.js.LICENSE.txt": "/asr/static/js/2.7a562460.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/asr/static/media/avatar.7c8e5f50.png",
+    "static/media/App.css": "/asr/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/html-css-javascript-lg.jpg": "/asr/static/media/html-css-javascript-lg.54fd4234.jpg",
+    "static/media/javascript-fullstack.jpg": "/asr/static/media/javascript-fullstack.730958a2.jpg",
+    "static/media/mern-stack.jpg": "/asr/static/media/mern-stack.90616a5d.jpg",
+    "static/media/react-redux.jpg": "/asr/static/media/react-redux.a8b012a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.942ff0c4.js",
+    "static/js/2.7a562460.chunk.js",
+    "static/css/main.66afbfc3.chunk.css",
+    "static/js/main.200069c0.chunk.js"
+  ]
+}
