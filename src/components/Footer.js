@@ -2,8 +2,10 @@ import React from 'react'
 import {makeStyles} from "@material-ui/styles"
 import {BottomNavigation, BottomNavigationAction} from "@material-ui/core"
 import Facebook from '@material-ui/icons/Facebook';
-import Twitter from '@material-ui/icons/Twitter';
+import LinkedIn from '@material-ui/icons/LinkedIn';
 import Instagram from '@material-ui/icons/Instagram';
+import GitHub from '@material-ui/icons/GitHub';
+
 
 
 const useStyles = makeStyles({
@@ -13,10 +15,10 @@ const useStyles = makeStyles({
      maxWidth: 250,
    },
    "& .MuiSvgIcon-root": {
-     fill:"tan",
+     fill:"tomato",
      "&:hover": {
-       fill:"tomato",
-       fontSize:"1,8rem",
+       fill:"tan",
+       fontSize:"1.8rem",
      },
    }
   }
@@ -29,15 +31,23 @@ const classes = useStyles();
   return(
 <BottomNavigation width="auto" style={{background:"#233"}}>
 <BottomNavigationAction className={classes.root} style={{padding:0}}
-icon={<Facebook/>}
- />
- <BottomNavigationAction className={classes.root} style={{padding:0}}
- icon={<Twitter/>}
+ icon={<LinkedIn />}
+ href="https://www.linkedin.com/in/anjana-sinha/"
   />
+<BottomNavigationAction className={classes.root} style={{padding:0}}
+icon={<Facebook/>}
+href="https://www.facebook.com/anjana.sinhaa"/>
+
   <BottomNavigationAction className={classes.root} style={{padding:0}}
   icon={<Instagram/>}
-   />
+  href="https://www.instagram.com/anjana.sinha.india/"/>
+  <BottomNavigationAction className={classes.root} style={{padding:0}}
+  icon={<GitHub/>}
+  href="https://github.com/sinhaanjana32"/>
+
+
 </BottomNavigation>
+
 );
 }
 

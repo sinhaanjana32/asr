@@ -19,10 +19,15 @@ height: "100%",
 
 CardContainer: {
   maxWidth: 345,
-
    margin: "5rem auto",
 },
 
+title:{
+  justifyContent:'center',
+  textAlign: 'center',
+  paddingTop: '30px',
+  
+},
 })
 
 
@@ -32,6 +37,10 @@ const Portfolio = () => {
 return (
   <Box component="div" className={classes.mainContainer}>
   <Navbar />
+  
+<Typography variant="h4" style={{color:"tan"}} className={classes.title}  >
+                 PROJECT PORTFOLIO
+                </Typography>
   <Grid container justify="center">
 
 <Grid item xs={12} sm={8}  md={4}>
@@ -54,7 +63,7 @@ return (
        </CardActionArea>
      <CardActions>
      <Button size="small" style={{color:"tomato"}} href="https://github.com/sinhaanjana32/CoronaTracker" >
-     GitHub
+     GitHub Code
      </Button>
      <Button size="small"  style={{color:"tomato"}} href="https://youtu.be/is6V7DTxx5o" >
      Live Demo
@@ -82,7 +91,7 @@ return (
          </CardActionArea>
        <CardActions>
        <Button size="small" style={{color:"tomato"}} href="https://github.com/sinhaanjana32/RecipeApp" >
-     GitHub
+     GitHub Code
      </Button>
      <Button size="small"  style={{color:"tomato"}} href="https://youtu.be/BhZB6-gqTBY">
      Live Demo
@@ -111,7 +120,7 @@ return (
           </CardActionArea>
         <CardActions>
         <Button size="small" style={{color:"tomato"}} href="https://github.com/sinhaanjana32/YoutubeCopy" >
-     GitHub
+     GitHub Code
      </Button>
      <Button size="small"  style={{color:"tomato"}} href="https://youtu.be/RHR5psNx_IM">
      Live Demo
@@ -138,7 +147,7 @@ return (
            </CardActionArea>
          <CardActions>
          <Button size="small" style={{color:"tomato"}} href="https://github.com/sinhaanjana32/Pixabay-ImageFinder" >
-     GitHub
+     GitHub Code
      </Button>
      <Button size="small"  style={{color:"tomato"}} href="https://youtu.be/SmH2XpXybqc" >
      Live Demo
@@ -166,7 +175,7 @@ return (
          </CardActionArea>
        <CardActions>
        <Button size="small" style={{color:"tomato"}} href="https://github.com/sinhaanjana32/movieinfo" >
-     GitHub
+     GitHub Code
      </Button>
      <Button size="small"  style={{color:"tomato"}} href="https://youtu.be/J9Fvwc0vXZI" >
      Live Demo
@@ -188,7 +197,7 @@ return (
       />
        <CardContent>
        <Typography gutterBottom variant="h5">
-       Budjet App
+       Budget App
        </Typography>
        <Typography variant="body2" color="textSecondary" component="p">
        React | MUI | BootStrap
@@ -197,7 +206,7 @@ return (
          </CardActionArea>
        <CardActions>
        <Button size="small" style={{color:"tomato"}} href="https://github.com/sinhaanjana32/Budgetapp" >
-     GitHub
+     GitHub Code
      </Button>
      <Button size="small"  style={{color:"tomato"}} href="https://youtu.be/lw0kQat0S8Q" >
      Live Demo

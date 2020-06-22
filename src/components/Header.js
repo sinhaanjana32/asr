@@ -62,7 +62,7 @@ return (
         </Typography>
 <br/>
       <Typography className={classes.subtitle} variant="h5">
-      <Typed strings= {["Web Developer", "FrontEnd Focused", "WordPress Developer"]}
+      <Typed strings= {["Web Programmer", "Front End Engineer", "WordPress Developer"]}
        typedSpeed={40}
        backSpeed ={60}
        loop

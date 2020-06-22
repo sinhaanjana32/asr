@@ -47,8 +47,8 @@ export default function SpacingGrid() {
     <Grid container className={classes.mainContainer} >
       
       <Grid item xs={12}>
-      <Divider variant="middle" />
-      <Typography variant="h4" style={{color:"tan"}} className={classes.title}>
+      <Divider variant="middle" style={{marginTop:-30 }} />
+      <Typography variant="h4" style={{color:"tan",marginTop:35  }} className={classes.title}>
      
               FRONTEND FOCUSED: MERN Stack Experience
 
@@ -127,7 +127,7 @@ export default function SpacingGrid() {
                     <br />
                     NodeJs & Express
                     <br />
-                    MangoDB
+                    
                
                     </Typography>
                 </CardContent>

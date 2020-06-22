@@ -131,10 +131,10 @@ className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
 
 <Box component="div" className={classes.timeLineItem}>
 <Typography variant="h5" align="center" className={classes.subHeading}>
-FronEnd Development | WordPress Developer
+FronEnd Engineer | WordPress Developer
 </Typography>
 <Typography variant="body1" align="center" style={{color:"tomato"}}>
-Freelance
+Freelance.
 </Typography>
 <Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
 React | JS | API | Node | Express | MUI | WIX | WordPress
@@ -147,14 +147,13 @@ className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
 
 <Box component="div" className={classes.timeLineItem}>
 <Typography variant="h5" align="center" className={classes.subHeading}>
-Founder
+Founder & Developer
 </Typography>
 <Typography variant="body1" align="center" style={{color:"tomato"}}>
 Beyond Border Oy
 </Typography>
 <Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
-www.beyondborder.net
-Ran semi-failed startup.
+Semi-failed startup.
 </Typography>
 </Box>
 
@@ -164,7 +163,7 @@ className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
 
 <Box component="div" className={classes.timeLineItem}>
 <Typography variant="h5" align="center" className={classes.subHeading}>
-Integration in Finland
+Integration in Finland.
 </Typography>
 <Typography variant="body1" align="center" style={{color:"tomato"}}>
 LUKSIA | GOInternational Finland | Finbolly Oy
@@ -186,7 +185,7 @@ Technical PMO
 IBM INDIA
 </Typography>
 <Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
-Handelled commercial and delivery aspects of project delivery cycle starting from Project initiation to Project closure for clients like BP and BAT
+Handled commercial and delivery aspects of project delivery cycle starting from initiation to closure for clients like BP and BAT.
 </Typography>
 </Box>
 
@@ -202,7 +201,7 @@ Technical Support Associate
 iYogi Technical Services
 </Typography>
 <Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
-Resolving system's technical issues.
+Resolving technical issues for customers.
 </Typography>
 </Box>
 
@@ -212,17 +211,14 @@ className= {`${classes.timeLineYear} ${classes.timeLineItem}`}
 
 <Box component="div" className={classes.timeLineItem}>
 <Typography variant="h5" align="center" className={classes.subHeading}>
-Computer Engineering
+Computer Science
 </Typography>
 <Typography variant="body1" align="center" style={{color:"tomato"}}>
 MIT Pune
 </Typography>
 <Typography variant="subtitle1" align="center"  style={{color:"tan"}}>
-Information Technology
+Bachelor of Engineering
 </Typography>
-
-
-
 
 </Box>
 </Box>
