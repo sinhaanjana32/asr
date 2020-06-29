@@ -92,7 +92,7 @@ return(
     <IconButton onClick={toggleSlider("right",true)}>
     <ArrowBack style={{color:"tomato"}} />
     </IconButton>
-    <Typography variant="h6" style={{color:"tan"}} > Code For Good.
+    <Typography variant="h6" style={{color:"tan"}} > Coding.
     </Typography>
 <MobilRightMenuSlider
 anchor="right"

@@ -50,7 +50,7 @@ export default function SpacingGrid() {
       <Divider variant="middle" style={{marginTop:-30 }} />
       <Typography variant="h4" style={{color:"tan",marginTop:35  }} className={classes.title}>
      
-              FRONTEND FOCUSED: MERN Stack Experience
+              FRONTEND FOCUSED
 
                 </Typography>
         <Grid container justify="center">
@@ -123,11 +123,13 @@ export default function SpacingGrid() {
                     <br />
                   
                     <Typography variant="body2" component="p" style={{textAlign:'center', color:"tan"}} >
-                   API & Json
+                   API 
                     <br />
-                    NodeJs & Express
+                    Json
                     <br />
-                    
+                    NodeJs  
+                    <br />
+                    Express
                
                     </Typography>
                 </CardContent>
