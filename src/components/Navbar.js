@@ -102,7 +102,7 @@ onClose={toggleSlider("right",false)} > {sideList("right")}
 </MobilRightMenuSlider>
 
 </Toolbar>
-</AppBar>
+</AppBar>a
 </Box>
 </>
 );
